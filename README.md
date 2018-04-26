@@ -1,5 +1,5 @@
 # Useful GAIA tools
--------------------
+
 ## Paper
 * [gaia DR2](https://www.aanda.org/articles/aa/pdf/forth/aa33051-18.pdf)
 
@@ -13,6 +13,7 @@
 ## Data fetcher
 * [pyia](https://github.com/adrn/pyia)
 * [astropy.astroquery.gaia](http://astroquery.readthedocs.io/en/latest/gaia/gaia.html)
+* [Age estimation using Kepler period+DR2 distances](https://github.com/jradavenport/gaia2_kep_rot.git)
 
 ## Simulation toolkit
 * [PyGaia](https://github.com/agabrown/PyGaia.git)
@@ -39,10 +40,10 @@
 * Of these, 1.3B have parallaxes and proper motions 
 * 0.5M stars have variability information
 * Compared to DR1, DR2 has 4 new broad-band colour information: 
- - apparent brightness in the GBP (330–680 nm) and GRP (630–1050 nm) bands is available for 1.4 billion sources; 
- - median radial velocities for some 7 million sources are
+  - apparent brightness in the GBP (330–680 nm) and GRP (630–1050 nm) bands is available for 1.4 billion sources; 
+  - median radial velocities for some 7 million sources are
 presented; 
- - for between 77 and 161 million sources estimates are provided of the stellar effective temperature, extinction, reddening, and radius
+  - for between 77 and 161 million sources estimates are provided of the stellar effective temperature, extinction, reddening, and radius
 and luminosity; and 
- - for a pre-selected list of 14 000 minor planets in the solar system epoch astrometry and photometry are presented. 
+  - for a pre-selected list of 14 000 minor planets in the solar system epoch astrometry and photometry are presented. 
 * The celestial reference frame in the optical, the Gaia-CRF2, solely on extragalactic sources. 
