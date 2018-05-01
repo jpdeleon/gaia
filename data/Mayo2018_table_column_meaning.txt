@@ -1,0 +1,32 @@
+Bytes	Format	Units	Label	Explanations
+1-8		A8   	---  	K2		K2 identifier
+10-21	A12		---		EPIC	EPIC identifier
+23-33	F11.6	d  		T0   	Mid-transit time; BJD - 2454833
+35-42	F8.6 	d		E_T0 	Upper uncertainty in T0
+44-51	F8.6  	d  		e_T0 	Lower uncertainty in T0
+53-62	F10.7 	d  		P    	Period
+64-72	F9.7  	d  		E_P  	Upper uncertainty in P
+74-82	F9.7  	d  		e_P  	Lower uncertainty in P
+84-90	F7.3  	--- 	a/R* 	Semi-major axis relative to stellar radius
+92-97	F6.3  	--- 	E_a/R*	Upper uncertainty in a/R*
+99-104	F6.3  	--- 	e_a/R*	Lower uncertainty in a/R*
+106-111	F6.3  	deg 	inc   	Inclination 
+113-118	F6.3  	deg 	E_inc  	Upper uncertainty in inc
+120-125	F6.3  	deg 	e_inc  	Lower uncertainty in inc
+127-133	F7.5  	--- 	Rp/R*  	Planetary radius relative to stellar radius
+135-141	F7.5  	--- 	E_Rp/R*	Upper uncertainty in Rp/R*
+143-149	F7.5  	--- 	e_Rp/R*	Lower uncertainty in Rp/R*
+151-157	F7.3  	--- 	Rp/Re  	Planetary radius relative to Earth radius
+159-165	F7.3  	--- 	E_Rp/Re	Upper uncertainty in Rp/Re
+167-173	F7.3  	--- 	e_Rp/Re	Lower uncertainty in Rp/Re
+175-180	F6.3  	solRad	R*     	Stellar radius
+182-186	F5.3  	solRad	E_R*   	Upper uncertainty in R*
+188-192	F5.3  	solRad	e_R*   	Lower uncertainty in R*
+194-198	F5.3  	solMass	M*     	Stellar mass
+200-204	F5.3  	solMass	E_M*   	Upper uncertainty in M*
+206-210	F5.3  	solMass	e_M*   	Lower uncertainty in M*
+212-217	F6.3  	mag    	Kpmag  	Kepler apparent magnitude
+219		A1    	---    	l_FPP  	Limit flag on FPP
+220-227	E8.3  	---    	FPP    	? False Positive Probability
+229-237	A9    	---    	Disp   	Disposition
+239-242	A4  	---    	Note   	Note code (1)
